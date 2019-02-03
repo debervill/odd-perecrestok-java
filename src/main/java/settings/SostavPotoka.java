@@ -13,7 +13,6 @@ public class SostavPotoka {
             private SimpleIntegerProperty fminautopoezd;
             private SimpleIntegerProperty fmaxautopoezd;
 
-
     public SostavPotoka(Integer minlegk, Integer maxlegk, Integer mingruz, Integer maxgruz, Integer minautobus, Integer maxautobus, Integer minautopoezd, Integer maxautopoezd) {
         this.fminlegk = new SimpleIntegerProperty(minlegk);
         this.fmaxlegk = new SimpleIntegerProperty(maxlegk);

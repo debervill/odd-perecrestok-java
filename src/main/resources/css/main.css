@@ -1,0 +1,40 @@
+.root{
+    -fx-font-size: 14;
+    -fx-background-color: #D8EFBB;
+    -fx-padding: 10px;
+    -fx-border-insets: 5px;
+}
+
+ #lbkkafedra{
+     -fx-font-size: 22;
+     -fx-font-family: Futura;
+
+ }
+
+.labelp{
+    -fx-font-size: 18;
+}
+
+
+.label{
+    -fx-font-size: 14;
+}
+
+.button {
+    -fx-background-color: #DCC6E1;
+}
+
+.button:focused{
+    -fx-background-color: #FFD2C8;
+}
+
+
+.text-field{
+    -fx-padding: 3;
+    -fx-end-margin: 10;
+    -fx-font-size: 14;
+    -fx-font-family: "Comic Sans MS";
+}
+
+
+

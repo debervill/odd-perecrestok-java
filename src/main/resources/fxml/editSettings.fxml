@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.VBox?>
+
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+            prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="settings.SettingsController">
+      <VBox alignment="TOP_CENTER" prefHeight="631.0" prefWidth="582.0"
+     >
+
+            <Label text="Редактирование процентного соотношения состава транспортного потока">
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </Label>
+             <TableView fx:id="tbl_sostavpotoka" prefHeight="91.0" prefWidth="582.0">
+                 <columns>
+                     <TableColumn fx:id="tb_minlegk" prefWidth="137" text="Мин легковых" />
+                     <TableColumn fx:id="tb_maxlegk" prefWidth="137" text="Макс легковых" />
+                     <TableColumn fx:id="tb_mingruz" prefWidth="137" text="Мин грузовых" />
+                     <TableColumn fx:id="tb_maxgruz" prefWidth="137" text="Макс грузовых" />
+                     <TableColumn fx:id="tb_minautobus" prefWidth="137" text="Мин автобусов" />
+                     <TableColumn fx:id="tb_maxautobus" prefWidth="137" text="Макс автобусов" />
+                     <TableColumn fx:id="tb_minautopoezd" prefWidth="137" text="Мин автопоездов" />
+                     <TableColumn fx:id="tb_maxautopoezd" prefWidth="137" text="Макс Автопоездов" />
+                 </columns>
+             </TableView>
+            <Button mnemonicParsing="false" text="Изменить" />
+            <Label text="Измнение параметров категорий дорог" />
+            <TableView prefHeight="196.0" prefWidth="582.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="C1" />
+                <TableColumn prefWidth="75.0" text="C2" />
+              </columns>
+            </TableView>
+            <Button mnemonicParsing="false" text="Изменить" />
+
+      </VBox>
+
+</ScrollPane>

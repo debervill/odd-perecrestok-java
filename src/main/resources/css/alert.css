@@ -1,0 +1,10 @@
+.dialog-pane{
+    -fx-background-color: #f9d900;
+}
+.dialog-pane > *.button-bar > *.container{
+    -fx-background-color: #a9e200;
+}
+.dialog-pane > *.label.content{
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
